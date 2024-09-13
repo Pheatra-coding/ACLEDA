@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh; 
+    background-image: url(https://img.freepik.com/free-photo/lovely-woman-browsing-laptop-cafe_23-2147785343.jpg?t=st=1725964193~exp=1725967793~hmac=47f60b9ed79100ece2abbc71001418f24a90af66b5f1f9eba20648cb0e1baf84&w=740);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    background: #d4d4d2be;
+    height: 100vh;
+    width: 35%;
+    margin-left: 65%;
+}
+
+main .input-container .icon {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+main .input-container .icon .material-symbols-outlined {
+    font-size: 30px;
+}
+main .input-container .icon section, main .input-container .icon section option{
+    border: none;
+    outline: none;
+}
+
+main .input-container img {
+    width: 60%;
+    margin-left: 23%;
+    margin-top: -15px;
+}
+
+main .input-container h1 {
+    font-size: 20px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.499);
+    margin-top: -15px;
+}
+
+main .input-container .row {
+    display: flex;
+}
+
+main .input-container .row input {
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 30px;
+    outline: none;
+}
+
+main .input-container .row .hi {
+    margin-left: -20px;
+    margin-top: 30px;
+}
+
+.log {
+    display: flex;
+}
+
+main .input-container button {
+    padding: 16px;
+    width: 80%;
+    margin-left: 10%;
+    background: #153E6C;
+    border: none;
+    border-radius: 50px;
+    margin-top: 30px;
+    color: white;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+main .input-container button:hover, .point:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.point {
+    margin-top: 42px;
+    margin-left: -50px;
+    color: white;
+}
+main .input-container .for {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 40px;
+    color: #476e9a;
+    font-weight: bold;
+}
+
+.call {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.hello {
+    margin-top: -5px;
+}
